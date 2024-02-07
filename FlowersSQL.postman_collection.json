@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "1196003a-a71b-493c-82ac-925db6815574",
+		"name": "FlowersSQL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "32194980"
+	},
+	"item": [
+		{
+			"name": "{{server}}:{{port}}/flower/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"rosota\",\r\n    \"country\":\"Russia\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}:{{port}}/flower/add"
+			},
+			"response": []
+		},
+		{
+			"name": "{{server}}:{{port}}/flower/getAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{server}}:{{port}}/flower/getAll"
+			},
+			"response": []
+		},
+		{
+			"name": "{{server}}:{{port}}/flower/delete/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "{{server}}:{{port}}/flower/delete/2"
+			},
+			"response": []
+		}
+	]
+}
