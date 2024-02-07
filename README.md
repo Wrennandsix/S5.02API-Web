@@ -1,4 +1,5 @@
- Enllaç per accedir a la documentacio generada amb swagger: http://localhost:9001/flower/docs.
+ Enllaç per accedir a la documentacio generada amb swagger: http://localhost:9001/flower/docs
+ 
  adjuntat script per crear la base de dades SQL.
  adjuntat entorn exportat de postman per comprobar les diferents peticions.
 
